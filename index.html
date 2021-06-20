@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melody</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="title-bar">
+
+            <div class="icon">
+                <lord-icon src="https://cdn.lordicon.com/vieswnpa.json" trigger="loop"
+                    colors="primary:#121331,secondary:#6c16c7" stroke="130" scale="49" axis-x="49"
+                    style="width:70px;height:60px">
+                </lord-icon>
+
+            </div>
+
+
+            <div class="title-text">
+                <div class="title">
+                    <h1>Melody</h1>
+                </div>
+            </div>
+
+
+
+            <div class="favorite-button">
+
+                <div class="material-icons fav-icon ">
+                    favorite
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="data-container">
+
+            <div class="canvas"><canvas id=c></canvas></div>
+            <div class="home-tab">
+                <ul>
+                    <li><a href="#"><span class="material-icons home-tab-icon">album</span> Music</a></li>
+                    <li><a href="#"><span class="material-icons home-tab-icon">playlist_add</span> Playlist</a></li>
+                    <li><a href="#"><span class="material-icons home-tab-icon">favorite_border</span> Favorites</a></li>
+                </ul>
+
+            </div>
+            <div class="music-player">
+
+                <div class="iconsss">
+                    <div class = "img-container">
+                        <img class="main-pic">
+                    </div>
+
+                    <span class="material-icons white prev">
+                        undo
+                    </span>
+
+                    <span class="material-icons white play">
+                        play_circle_outline
+                    </span>
+
+                    <span class="material-icons white forward">
+                        redo
+                    </span>
+                    
+
+
+                </div>
+                
+                
+               
+            </div>
+            <div class="playlist-tab">
+                <div class="playlist-title"></div>
+                <div class="audio-list">
+                   
+                </div>
+            </div>
+        </div>
+
+        <div class="audios">
+            <audio class="audio" src="./songs/city-of-gold.mpeg" id="audioSource" type="audio/mpeg"></audio>
+           
+        </div>
+
+        
+    </div>
+
+    </div>
+
+    <div class="sheet-bar">
+
+
+        <div class="now-playing">
+            <div class="play-icon"><img src="./audio-wave.gif" alt=""></div>
+            <div class="now-playing-text">Now playing</div>
+            <div class="now-playing-title"></div>
+
+
+
+        </div>
+        <div class="times">
+
+            <div class="time">
+                <div class="start-time">00:00</div>
+                <div class="end-time">00:00</div>
+            </div>
+            <div class="time-bar">
+                <div class="progress"></div>
+            </div>
+
+
+
+        </div>
+        <div class="sound-bar">
+
+            <span class="material-icons soundIcon">
+
+                volume_up
+            </span>
+        </div>
+    </div>
+
+
+
+
+    </div>
+
+
+
+    </div>
+    </div>
+
+    <script src="https://cdn.lordicon.com/libs/frhvbuzj/lord-icon-2.0.2.js"></script>
+    
+    <script src="script.js"></script>
+
+</body>
+
+</html>
